@@ -1,0 +1,45 @@
+
+body{
+      background-image: url(https://i.pinimg.com/originals/37/6c/78/376c788b791d6c11dc5f58d8e5e0f027.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+  
+main {
+        font-size: 16px
+    }
+  
+a {
+      color: green;
+    }
+
+h1 {
+      background-color: forestgreen;
+      border: 5px solid skyblue;
+      border-radius: 15px;
+      padding: 15px;
+      margin: 50px 50px;
+      /*height:  150px;*/
+      overflow: scroll;
+      width: 75%;
+      margin: 0 auto; 
+      /*centers block elements*/
+      font-size: 4rem;
+      font-family: 'Sofia' ;
+
+
+     }
+    h2 {
+      background-color: mediumpurple;
+      border: double hotpink;
+    }
+
+    img {
+      border-radius: 20px;
+      border: solid mediumpurple;
+      width: 100%
+      height:  auto;
+    }
+    ul {
+      border: solid seagreen;
+    }
