@@ -3,6 +3,10 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
 }
+h1 {
+  text-align: center;
+  
+}
 
 header{
    font-family: 'Creepster', cursive;
@@ -18,16 +22,16 @@ nav{
   background-color:black;
 }
 
+
+li {
+  display: inline;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-
-li {
-  display: inline;
 }
 
 button {
@@ -43,10 +47,6 @@ footer {
   color: Orange;
 }
 
-h1 {
-  text-align: center;
-  
-}
 
 .photos {
   width: 90%;
