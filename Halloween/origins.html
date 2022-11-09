@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Origin</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+  <link href="imagesstyles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>Halloween</header>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="origins.html">Origins</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photo Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    
+     
+  <button id="originsButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Background
+  </button>
+   
+
+    <div id="mainCarousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 4"></button>
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="ghost dog" src="https://hips.hearstapps.com/hmg-prod/images/halloween-puns-1623436787.jpg?crop=1.00xw:0.353xh;0,0.475xh&resize=640:*"
+            class="d-block w-75" alt="dog dressed as a ghost">
+        </div>
+        <div class="carousel-item">
+          <img id="halloween" src="https://info.parchitour.com/wp-content/uploads/2019/09/MAGIC-HALLOWEEN-GARDALAND.jpg" class="d-block w-75" alt="Halloween selfie" >
+        </div>
+        <div class="carousel-item">
+          <img id="spooky" src="https://images.pexels.com/photos/3135473/pexels-photo-3135473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-75" alt="Spooky pumpkins">
+        </div>
+        <div class="carousel-item">
+          <img id="halloween" src="https://static.vecteezy.com/system/resources/previews/001/331/268/original/happy-halloween-from-the-spooky-castle-free-vector.jpg" class="d-block w-75" alt="Children haunted mansion" >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Halloween Origins</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+Halloween or Hallowe'en is a celebration observed in many countries on 31 October, the eve of the Western Christian feast of All Saints' Day. It begins the observance of Allhallowtide, the time in the liturgical year dedicated to remembering the dead, including saints, martyrs, and all the faithful departed.            </div>
+            <div class="col">
+              <img id="halloween-origin" src="https://images.squarespace-cdn.com/content/v1/5e07990f5096316889ae357c/1633449093125-CDKPX9HYZIV6VTVH3BHW/GettyImages-3245514-c4c6764.jpg?format=1500w" alt="kids with pumpkins" width="250" class="responsive">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>CSUMB 2022 Isaiah Kittles.</footer>
+</body>
+
+</html>

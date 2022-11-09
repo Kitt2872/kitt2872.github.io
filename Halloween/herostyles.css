@@ -1,0 +1,64 @@
+header{
+   font-family: 'Creepster', cursive;
+   color: black;
+   font-size: 8em;
+  text-align:center;
+   background-color: orange;
+   border: 15px solid black;
+}
+body{
+  background-image: linear-gradient(orange, black);
+  background-repeat: no repeat;
+  background-size: auto;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  color: orange;
+  padding: 20px
+}
+
+
+
+.hero-image {
+  position: relative;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.hero-text h1 {
+  font-family:cursive;
+  font-size: 4vw;
+}
+
+.hero-text p {
+  font-size: 1.2vw;
+}
+#pumpkin-img {
+  opacity: 0.75;
+  height: auto;
+  width: 100%;
+}
+.hero-text {
+  position: absolute; 
+  top: 50%;
+  left: 5%;
+}
+
+
+footer {
+  background-color: black;
+  color: Orange;
+}
+button {
+  border-radius: 20px;
+  background-color: black;
+  border: 2px solid orange;
+  color: orange;
+  width: 20%;
+}
